@@ -1,0 +1,17 @@
+# Core (required)
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.4
+openpyxl>=3.1
+pillow>=10.3
+nltk>=3.9
+# Tests
+pytest>=8.0
+httpx>=0.27
+# Optional, large downloads (sentiment, zero-shot classification, abstractive summaries):
+#   pip install transformers torch
+# Optional (named entity recognition):
+#   pip install spacy && python -m spacy download en_core_web_sm
